@@ -8,4 +8,6 @@ router.post("/users",controllers.userpost)
 router.patch("/users/:id", controllers.userpatch); 
 router.delete("/users/:id", controllers.userdelete); 
 
+// 
+route.get("/data".controllers.userget)
 module.exports=router
