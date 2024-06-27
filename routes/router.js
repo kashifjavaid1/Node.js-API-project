@@ -5,7 +5,7 @@ const controllers = require("../controllers/UserControllers");
 router.post("/users", controllers.userpost).get("/users", controllers.userget);
 router.patch("/users/:id", controllers.userpatch);
 router.delete("/users/:id", controllers.userdelete);
-router.delete("/deleteMany", controllers);
+router.delete("/deleteMany", controllers.deleteMany);
 
 //
 route.get("/data".controllers.userget);
